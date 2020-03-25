@@ -1,4 +1,3 @@
-```javascript
 package k4;
 
 // Listing 4.10
@@ -15,4 +14,3 @@ public class MehrdimensionalesArrayBsp02 {
         }
     }
 }
-```
