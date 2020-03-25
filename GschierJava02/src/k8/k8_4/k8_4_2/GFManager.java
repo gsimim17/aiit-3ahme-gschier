@@ -1,4 +1,3 @@
-```javascript
 // Listing 8.12
 
 /*
@@ -11,4 +10,3 @@ extends Manager {
     }
 }
 */
-```
