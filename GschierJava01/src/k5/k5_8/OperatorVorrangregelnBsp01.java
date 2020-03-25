@@ -1,4 +1,3 @@
-```javascript
 package k5;
 
 // Listing 5.8 - 5.9
@@ -31,4 +30,3 @@ public class OperatorVorrangregelnBsp01 {
         }
     }
 }
-```
