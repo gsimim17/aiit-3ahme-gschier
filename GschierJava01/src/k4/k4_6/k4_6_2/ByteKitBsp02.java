@@ -1,6 +1,5 @@
 package k4;
 
-
 import k4.ByteKitBsp01;
 
 // Listing 4.13
