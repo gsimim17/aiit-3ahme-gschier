@@ -1,4 +1,3 @@
-```javascript
 package k4;
 
 // Listing 4.8
@@ -21,4 +20,3 @@ public class ArrayBsp02 {
         System.out.println(b[1]);
     }
 }
-```
