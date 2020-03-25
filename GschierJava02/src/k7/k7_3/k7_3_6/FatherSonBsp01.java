@@ -1,4 +1,3 @@
-```javascript
 package k7;
 
 // Listing 7.16
@@ -9,4 +8,3 @@ public class FatherSonBsp01 {
         return s;
     }
 }
-```
