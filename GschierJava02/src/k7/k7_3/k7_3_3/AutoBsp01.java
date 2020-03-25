@@ -1,4 +1,3 @@
-```javascript
 package k7;
 
 // Listing 7.1 / 7.6 / 7.8 / 7.9 / 7.11 / 7.12 / 7.14 / 7.15
@@ -42,4 +41,3 @@ public class AutoBsp01 {
         }
     */
 }
-```
