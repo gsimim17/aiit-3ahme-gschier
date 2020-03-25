@@ -1,4 +1,3 @@
-```javascript
 import k4.ArrayBsp02;
 import k4.MehrdimensionalesArrayBsp01;
 import k4.MehrdimensionalesArrayBsp02;
@@ -59,4 +58,3 @@ public class Main {
         bsp8.gelabeltesBreakBsp01();
     }
 }
-```
