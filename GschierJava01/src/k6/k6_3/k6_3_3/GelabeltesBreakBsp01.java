@@ -1,4 +1,3 @@
-```javascript
 package k6;
 
 // Listing 6.6
@@ -28,4 +27,3 @@ public class GelabeltesBreakBsp01 {
             }
     }
 }
-```
