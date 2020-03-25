@@ -1,4 +1,3 @@
-```javascript
 package k4;
 
 
@@ -18,4 +17,3 @@ public class ByteKitBsp02 {
         }
     }
 }
-```
