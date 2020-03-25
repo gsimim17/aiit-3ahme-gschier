@@ -1,4 +1,3 @@
-```javascript
 // Listing 8.11
 
 /*
@@ -15,4 +14,3 @@ extends Mitarbeiter {
     }
 }
 */
-```
