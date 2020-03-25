@@ -1,4 +1,3 @@
-```javascript
 // Listing 8.11
 
 /*
@@ -18,4 +17,3 @@ public class GehaltBsp01 {
     }
 }
 */
-```
