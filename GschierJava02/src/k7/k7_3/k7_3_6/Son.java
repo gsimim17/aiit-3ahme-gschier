@@ -1,4 +1,3 @@
-```javascript
 package k7;
 
 import k7.FatherSonBsp01;
@@ -14,4 +13,3 @@ extends Father {
         FatherSonBsp01.getAndPrint("Son.<init>");
     }
 }
-```
