@@ -1,4 +1,3 @@
-```javascript
 package k4;
 
 // listing 4.4 - 4.7
@@ -13,4 +12,3 @@ public class ArrayBsp01 {
         boolean[] y = {true, true};
     }
 }
-```
