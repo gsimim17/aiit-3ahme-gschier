@@ -1,4 +1,3 @@
-```javascript
 package k5;
 
 // Listing 5.3 - 5.5
@@ -19,4 +18,3 @@ public class StringVerkettungBsp01 {
         System.out.println("a + b = " + (a + b));
     }
 }
-```
