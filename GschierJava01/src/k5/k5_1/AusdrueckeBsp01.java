@@ -1,4 +1,3 @@
-```javascript
 package k5;
 
 // Listing 5.1 - 5.2
@@ -46,4 +45,3 @@ public class AusdrueckeBsp01 {
         System.out.println(k);
     }
 }
-```
