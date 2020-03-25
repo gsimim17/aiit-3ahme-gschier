@@ -1,4 +1,3 @@
-```javascript
 package k4;
 
 // Listing 4.1
@@ -17,4 +16,3 @@ Mehrzeiliges Kommentar
 public class KommentarBsp {
     
 }
-```
