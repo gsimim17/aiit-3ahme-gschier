@@ -1,4 +1,3 @@
-```javascript
 package k5;
 
 // Listing 5.6 - 5.7
@@ -16,4 +15,3 @@ public class ReferenzGleichheitBsp01 {
         System.out.println("a.equals(b) liefert " + a.equals(b));
     }
 }
-```
