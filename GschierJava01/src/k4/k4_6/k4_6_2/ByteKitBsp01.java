@@ -1,4 +1,3 @@
-```javascript
 package k4;
 
 // Listing 4.12
@@ -69,4 +68,3 @@ public class ByteKitBsp01 {
         return new String(chars);
     }
 }
-```
