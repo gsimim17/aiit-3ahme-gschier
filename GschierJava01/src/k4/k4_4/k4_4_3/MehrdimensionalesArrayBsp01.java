@@ -1,4 +1,3 @@
-```javascript
 package k4;
 
 // Listing 4.9
@@ -18,4 +17,3 @@ public class MehrdimensionalesArrayBsp01 {
         System.out.println(""+a[1][0]+a[1][1]+a[1][2]);
     }
 }
-```
