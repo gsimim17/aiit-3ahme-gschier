@@ -1,4 +1,3 @@
-```javascript
 package k7;
 
 // Listing 7.16
@@ -10,4 +9,3 @@ class Father {
         FatherSonBsp01.getAndPrint("Father.<init>");
     }
 }
-```
