@@ -1,4 +1,3 @@
-```javascript
 // Listing 8.11
 
 /*
@@ -15,4 +14,3 @@ abstract class Mitarbeiter {
     public abstract double monatsBrutto();
 }
 */
-```
