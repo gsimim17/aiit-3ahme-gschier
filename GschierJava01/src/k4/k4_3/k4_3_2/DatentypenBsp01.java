@@ -1,4 +1,3 @@
-```javascript
 package k4;
 
 // Listing 4.2 - 4.3
@@ -15,4 +14,3 @@ public class DatentypenBsp01 {
         System.out.println(d);
     }
 }
-```
