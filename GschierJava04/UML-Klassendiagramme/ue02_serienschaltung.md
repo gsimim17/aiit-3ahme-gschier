@@ -1,1 +1,1 @@
-![T](C:\Users\Michael\Desktop\GschierJava04\src\main\java\ue02_serienschaltung\Diagramm1.svg)
+![T](https://abload.de/img/ue02_serienschaltungr5ko0.jpeg)
