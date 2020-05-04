@@ -1,54 +1,50 @@
 package ue02_serienschaltung;
 
 public class Serienschaltung {
-    double strom = 0;
-    double spannung = 0;
-    double[] widerstandsFeld = new double[20];
-    int widerstandsFeldLength = widerstandsFeld.length;
-    
-    double updateSpannung() {
-        double gesamtspannung = 0;
+    private double strom;
+        private double spannung;
+        private double [] widerstandsFeld;
         
-        for (int i = 0; i < widerstandsFeldLength; i++) {
-            gesamtspannung += strom * widerstandsFeld[i];
+        private void updateSpannung() {
+            double rges = 0.0;
+            
+            for (double r : widerstandsFeld) {
+                rges += r;
+            }
+            spannung = strom * rges;
         }
         
-        return gesamtspannung;
-    }
-    
-    void addWiderstand(double widerstandInOhm) {
-        widerstandsFeldLength++;
-        widerstandsFeld[widerstandsFeldLength-1] = widerstandInOhm;
-        spannung = updateSpannung();
-    }
-    
-    /*
-    double getStrom() {
-        
-    }
-    */
-    
-    void setStrom(double strom) {
-        this.strom = strom;
-        spannung = updateSpannung();
-    }
-    
-    /*
-    double getSpannung() {
-        
-    }
-    */
-    
-    /*
-    String toString() {
-        protected Object clone() throws CloneNotSupportedException {
-            return super.clone(); //To change body of generated methods, choose Tools | Templates.
+        public void addWiderstand(double widerstandInOhm) {
+            if (widerstandsFeld == null) {
+                widerstandsFeld = new double [1];
+                widerstandsFeld[0] = widerstandInOhm;
+            } else {
+                double [] f = new double[widerstandsFeld.length + 1];
+                for (int i = 0; i < widerstandsFeld.length; i++) {
+                    f[i] = widerstandsFeld[i];
+                }
+                f[widerstandsFeld.length] = widerstandInOhm;
+                widerstandsFeld = f;
+            }
+            updateSpannung();
         }
-    }
-    */
+        
+        public double getStrom() {
+            return strom;
+        }
+        
+        public void setStrom(double strom) {
+            this.strom = strom;
+            updateSpannung();
+        }
+        
+        public double getSpannung() {
+            return spannung;
+        }
 
-    void serienschaltung() {
-        int arrayLength = widerstandsFeld.length;
-        System.out.print("Serienschaltung{strom=" + strom + ", spannung=" + spannung + ", widerstandsFeld=" + arrayLength + "}\n");
-    }
+        @Override
+        @SuppressWarnings("ImplicitArrayToString")
+        public String toString() {
+            return "TestSerienschaltung{" + "strom=" + strom + ", spannung=" + spannung + ", widerstandsFeld=" + widerstandsFeld + '}';
+        }
 }
