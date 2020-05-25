@@ -1,6 +1,8 @@
 package ue03_objects;
 
-public class Person extends Object implements Cloneable {
+import java.util.Objects;
+
+public class Person implements Cloneable {
     private final String firstname;
     private final String surname;
 
@@ -66,7 +68,12 @@ public class Person extends Object implements Cloneable {
         
         return true;
     }
-    
-    
-    
+
+    @Override
+    public int hashCode() {
+        int hc = firstname.hashCode();
+        hc = hc * 59 + surname.hashCode();
+        
+        return hc;
+    }
 }
