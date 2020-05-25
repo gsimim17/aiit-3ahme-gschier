@@ -11,7 +11,7 @@ public class TestPerson {
         System.out.println("4: " + (p1.equals(p2)));
         System.out.println("----------------------");
         System.out.println("5: " + p1.hashCode());
-        System.out.println("6: " + p2.hashCode();
+        System.out.println("6: " + p2.hashCode());
     }
     
     public static void main(String[] args) {
