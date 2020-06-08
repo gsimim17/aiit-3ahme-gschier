@@ -5,7 +5,7 @@ public abstract class Koerper {
     public static final double DICHTE_EICHE = 670;
     public static final double DICHTE_BUCHE = 690;
     
-    private double dichte;
+    protected double dichte;
 
     public Koerper(double dichte) throws IllegalArgumentException {
         if (dichte < 0) {
