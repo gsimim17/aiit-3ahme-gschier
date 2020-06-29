@@ -1,3 +1,6 @@
+package ue06;
+
+
 public class TestSerialCircuit {
     
     public static void main (String[] args) {
@@ -16,7 +19,7 @@ public class TestSerialCircuit {
         System.out.println(sc);
         System.out.println(" Current/A: " + sc.getCurrent());
         System.out.println(" Voltage/V: " + sc.totalVoltage());
-        System.out.println(" Power/W : " + sc.totalPower());
+        System.out.println(" Power/W  : " + sc.totalPower());
         System.out.println(" Energy/J : " + sc.totalEnergy());
         
         System.out.println("");
