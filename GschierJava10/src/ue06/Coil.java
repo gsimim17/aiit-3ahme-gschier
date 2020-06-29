@@ -4,7 +4,7 @@ package ue06;
 public class Coil extends Component {
 
     public Coil (double value) {
-        super(value);
+        super("L?", value);
     }
 
 
@@ -13,8 +13,15 @@ public class Coil extends Component {
     }
     
     
+    @Override
+    public String unit () {
+        return "H";
+    }
+    
+    
+    @Override
     public double energy () {
-        return (Coil * (current * current)) / 2;
+        return (getValue() * (getCurrent() * getCurrent())) / 2;
     }
     
 }
