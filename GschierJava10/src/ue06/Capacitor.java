@@ -4,7 +4,7 @@ package ue06;
 public class Capacitor extends Component {
 
     public Capacitor (double value) {
-        super(value);
+        super("C?", value);
     }
 
 
@@ -13,8 +13,15 @@ public class Capacitor extends Component {
     }
     
     
+    @Override
+    public String unit () {
+        return "F";
+    }
+    
+    
+    @Override
     public double energy () {
-        return (Capacitor * (voltage * voltage)) / 2;
+        return (getValue() * (getVoltage() * getVoltage())) / 2;
     }
     
     
